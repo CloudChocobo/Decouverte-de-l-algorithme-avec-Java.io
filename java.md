@@ -131,9 +131,9 @@ par exemple:
 
             int numero1 = 13 ;
 
-*"numéro1" est notre variable .   
-*"int" nous indique que la variable n'accepte pour assignation que des entiers .  
-*"=" indique que l'on souhaite assigner la valeur de droite à la variable de gauche.  
+-"numéro1" est notre variable .   
+-"int" nous indique que la variable n'accepte pour assignation que des entiers .  
+-"=" indique que l'on souhaite assigner la valeur de droite à la variable de gauche.  
 
 on peut affecter le contenu d'une variable à une autre variable:
 
