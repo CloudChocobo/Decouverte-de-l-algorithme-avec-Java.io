@@ -159,3 +159,8 @@ voici la liste par ordre alphabétique :
 * W
     while
     
+-------------------------
+--------------------------
+
+### Les Opérateurs
+
