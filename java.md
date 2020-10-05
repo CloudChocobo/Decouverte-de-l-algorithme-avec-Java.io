@@ -1,8 +1,9 @@
-#**JAVA**
+JAVA
+--------------
 
 Java est un langage de programmation orienté objet, crée en 1995 par Sun Microsystems et racheté en 2009 par Oracle.
 ------------
-------------
+
 ### La notion de variable
 
 Une variable est une donnée ou objet, identifiée par son nom et associé à une valeur qui peut être modifiée pendant l'exécution d'un programme Java.
