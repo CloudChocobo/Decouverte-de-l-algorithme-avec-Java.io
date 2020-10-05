@@ -194,6 +194,7 @@ result = a **/** b //2
 result = a **%** b //0
 
 -----
+
 Il y a aussi les **opérateurs de comparaison**, utilisés pour comparer 2 valeurs.
 
 * > plus grand que
@@ -211,11 +212,31 @@ exemple :
 
 ------
 
+Les **opérateurs d'incrémentations** :
+
+Ils permettent d' augmenter ou diminuer d'une unité une variable. Ce sont des opérateurs très utiles pour les bloucles car on a besoin d'un compteur et ce type permet d'alléger le code.
+
+* ++ : incrémentation - permet d'augmenter de une unité la variable
+* -- :décrémentation - permet de diminuer de une unité la variable 
+
+exemple : si **x** = 3
+
+x++ = 4;
+x-- = 2;
+
+--------
+
+Les **opérateurs logiques**
+
+Ces opérateurs sont liées au boolean. Ils permettent de vérifier si plusieurs conditions d'une valeur sont vraies.
+
+* **||** : représente le **OU** logique 
+* **&&** : représente le **ET** logique
+* **!** : représente le **NON** logique
 
 
-
-
-
+---------------------------
+--------------------
 
 ## L'instruction
 
