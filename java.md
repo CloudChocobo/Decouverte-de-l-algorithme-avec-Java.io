@@ -227,6 +227,22 @@ et
             blablbalbablablbalbalbalbalablaba  
             blblblablabalbabablabalablaablbalb
             blblbalblablabalbalbalbalbalbalabab*/
+
+
+### La condition 
+
+Elle permet de faire un trie dans les variables et de trouver en un clin d’œil la notion se rapprochant le plus ou étant égale a la condition, mais aussi de vérifié si elle est vrai ou fausse. 
+Grace à cette fonction nous pourront ainsi demander à java d’exécuter telle ou telle action en fonction de la nature de la variable et des conditions établies.
+Il en existe plusieurs types : 
+
+* If
+* Else
+* Else if
+* for
+* While.
+
+Enfin, sachez qu’il est possible de soumettre plusieurs variable a une condition en ajoutant && entre les deux et  plus variables concernées.
+
             
 
     
