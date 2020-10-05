@@ -25,7 +25,7 @@ Ne seront pas des noms de variables acceptés:
 * 'maVie
 * -maVie
         
-------------------------
+-----------------------
 -----------------------
 ### Les Types de variables
 
@@ -80,7 +80,15 @@ Les données dites non-primitives: elles ne contiennent pas de valeurs mais des 
     // créer une string variable
     String name = "Aurelie";
 
+-----------------------------
+-----------------------------
 
+### Les mots-clés
 
-
+Il existe une série de 53 mots-clés qui sont réservés. on ne peut pas les utiliser pour nommer des variables ou des objets sous peine de renvoyer à des erreurs et ne ne pas pouvoir compiler notre code.
+Les noms des données types de Java font partie des mots-clés.
     
+Mot clé 1 | Définition 1 | 
+ --- | --- | 
+abstract 1.1 | Déclaration d'une méthode ou d'une classe abstraite 1.2 | 
+assert 2.1 | Assertion 2.2 | 
