@@ -83,4 +83,150 @@ Les données dites non-primitives: elles ne contiennent pas de valeurs mais des 
 
 
 
+
+
+
+
+
+
+
+
+
+yannnick
+
+
+
+
+# Tutoriel d'algorithmie avec le langage Java
+
+## Le langage Java
+
+Java est un langage de programmation dit "orienté objet" c'est à dire que chaque concept, idée ou entité physique sera mis dans une "brique logicielle" appelée objet.  Ensuite l'interaction que l'on créera entre ces objets permettra de concevoir les fonctionnalités désirées.  
+
+Par exemple pour créer une voiture on doit assembler et créer differente interractions entre different éléments et concepts comme par exemple le volant pour diriger , les roues pour avancer, les sièges pour s'assoire etc...  après avoir mis tout ces éléements en relation entre eux nous arrivons à la création d'une voiture qui nous permettra de nous déplacer. 
+
+## L'algorithmie
+
+L'algorithmie c'est le processus par lequel on va etudier et diviser une tâche complexe en en une série de plusieurs tâches élémentaires à effectuer dans un ordre bien particulier.
+
+## L'instruction
+
+L'instruction est une ligne de code qui décris une tâche à executer. 
+
+par exemple:  
+
+            10 + 3 ;
+
+ici on demande d'aditionner la valeur "10" à la valeur "3";
+
+            int numero1 = 13 ;
+
+ici on demande d'initialiser la variable "numero1" comme "integer" et demande de lui assigner la valeur 13.
+
+## L'assignation
+
+Pour manipuler des valeurs un programme a besoin de variables pour les contenir. L'assignation consiste à affecter une valeur à une variable.
+
+par exemple: 
+
+            int numero1 = 13 ;
+
+-"numéro1" est notre variable . 
+-"int" nous indique que la variable n'accepte pour assignation que des entiers .
+-"=" indique que l'on souhaite assigner la valeur de droite à la variable de gauche.
+
+on peut affecter le contenu d'une variable à une autre variable:
+
+par exemple: 
+
+            int numero1 = 13 ;
+            int numero2 = 2 ;
+
+pour le moment la valeur "13" est assignée à la variable "numéro1" et la valeur "2" est assignée à la variable "numéro2".
+
+mais si j'écris:
+
+             numero1 = numero2  ;
+
+Alors désormais la variable "numero1" contient la valeur de la variable "numero2" autrement dit la valeur "2" est assigné à la variable "numer1":
+
+            numero1 = 2;
+
+## L'évaluation
+
+Lors de l'évaluation on va fabriquer de nouvelles valeurs à partir d'autres valeurs préexistantes à l'aide d'expressions arithmétiques tel que l'addition, la multiplication etc...  
+ou de comparaisons logiques dont la valeur produite sera dite de type "boolean".
+
+par exemple :  
+                
+            int numero1 = 13;
+            int numero2 = 2;
+            int numero3 = numero1 + numero2;
+
+ici les valeurs de "numero1" et "numero2" ont été additionné et le résultat a été assigné à une nouvelle variable que l'on a appelée "numero3".   
+La valeur contenue par la variable "numero3" est donc : **13+2 = 15**
+
+Maintenant si j'écris:  
+
+               numero1 < numero2 
+
+Alors la valeur de type "boolean" créée sera dite "false" car **13** n'est pas plus petit que **2**.
+
+En revanche si j'écris:
+
+               numero2 < numero1 
+
+Ici la va leur créer par cette evaluation sera dite "True" car effectivement **2** est plus petit que **13**.
+
+
+
+## le bloc d'instructions
+
+Il est possible de regrouper plusieurs instructions par bloc dont les limites seront identifiés par des accolades **{}** .
+
+par exemple: 
+
+            int numero1 = 13;
+            int numero2 = 2;
+             
+
+            if (numero1 < numero2 ){
+                 int numero3 = numero1 + numero2;
+                 return numero3
+               }else return -1
+
+Ici on demande d'executer les instructions contenues dans le bloc encadrer par les symboles **{}** à la condition que la valeur contenue par la variable "numero1" soit plus petite que celle contenue par "numero2".
+dans le l'exemple ci-dessus la condition n'étant pas remplie , les instructions du bloc ci-dessous:
+                
+                {
+                 int numero3 = numero1 + numero2;
+                 return numero3
+               }
+
+ne seront pas executées et la console la console affichera -1.
+
+Il est possible d'insérer des blocs dans des blocs.
+
+
+## le commentaire
+
+Le commentaire consiste à annoter le code pour le rendre plus comprensible et plus lisible. Le commentaire n'est pas perçu comme une instruction executable par le programme en lui-même. Il est un suplement d'information que l'on s'adresse à soi-même ou à un autre développeur dans le but de faciliter la maintenance.
+
+En langage Java le commentaire commence par le signe *//* si il ne comprend qu'une seule ligne.
+Si le commentaire contient plusieurs ligne on préfèrera l'encadrer par les signes */** et **/* .
+
+
+par exemple: 
+
+            // blblblablabalblablalbalblabal.
+
+et 
+
+
+            /*blablablbalablablabalbalaballa  
+            blablbalbablablbalbalbalbalablaba  
+            blblblablabalbabablabalablaablbalb
+            blblbalblablabalbalbalbalbalbalabab*/
+            
+
     
