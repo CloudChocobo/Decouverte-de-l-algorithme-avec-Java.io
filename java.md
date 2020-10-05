@@ -10,13 +10,16 @@ Une variable est une donnée ou objet, identifiée par son nom et associé à un
 La variable ne peut en aucun cas commencer par un chiffre. Elle doit donc débuter par une lettre ou éventuellement un _ et ne peut comporter d'autres caractères spéciaux. 
 
 exemple : 
+
 Seront des noms de variables acceptés :
+
 * MaVie
 * _MaVie
 * Ma_Vie
 * maVie_
 
 Ne seront pas des noms de variables acceptés:
+
 * (Mavie)
 * ma=vie
 * 'maVie
@@ -36,8 +39,48 @@ la *static variable*, initialisée qu'une seule fois au début de l'exécution d
 
 Ces variables peuvent contenir différents types de données.
 
-Les données dites primitives : 
+Les données dites primitives. Elles sont déjà définies dans Java.
 
-* int : concerne les nombres entiers
-* char : concerne une seule et unique lettre
+* int : concerne les nombres entiers qui peuvent être longs ou courts  
+    
+    int age = 40;
+
+* byte: concerne des entiers plutôt courts
+
+    byte b = 10;
+
+* long: concerne des entiers très longs
+
+    long num1 = 123456789;
+
+* short: concerne des entiers très courts
+
+    short num = 5;
+
+* float : concerne des nombres réels (à virgules, et moins précis que double si on prend loin derrière la virgule)
+    
+    float D = (float)12.5;
+
+* double: concerne des nombres réels (à virgules) 
+
+    double pi = 3.1415
+
+* char : concerne une seule et unique lettre (caractère unicode)
+
+    char grade = 'F';
+
+* boolean : concerne une valeur logique, uniquement True ou False
+
+    boolean dodo = true;
+
+Les données dites non-primitives: elles ne contiennent pas de valeurs mais des adresses ou des références.
+
+* strings: une chaîne de caractères compris entre double "".
+
+    // créer une string variable
+    String name = "Aurelie";
+
+
+
+
     
