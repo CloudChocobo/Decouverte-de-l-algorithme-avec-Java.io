@@ -244,5 +244,54 @@ Il en existe plusieurs types :
 Enfin, sachez qu’il est possible de soumettre plusieurs variable a une condition en ajoutant && entre les deux et  plus variables concernées.
 
             
+### Les Boucles.
+
+Tout comme les conditions, les boucles dites loops, nous permettent de d’exécuter un ordre bien précis sur une ou des variables en particulier.
+Les loops sont très pratiques, elles permettent d’éviter les répétions et les lignes de code interminables. Elles ont pour objectif d’effectuer une tâche en boucle. Certaines fonctions, variables nécessitent d’être répétées à plusieurs reprises voir ad vitam aeternam pour le bon fonctionnement du code.
+Pour créer une boucle on utilisera les commandes : 
+
+* While 
+* For
+
+
+### Les fonctions : méthode de class en Java 
+
+Les fonctions sont un regroupement d’instructions, elles permettent d'exécuter dans plusieurs parties du programme une série d'instructions. Elles possèdent : 
+* Un nom
+* Une liste de paramètres 
+* Le type de résultat à envoyer 
+Le corps de la fonction est délimité par { } et se termine par RETURN (result) suivi d’un « ; » 
+
+Une fois la méthode créée il suffira de faire appel à elle en utilisant le nom qui lui aura été attribué.
+Ex : 
+
+
+Public Static Void LearningJave
+Public Static Void main (string arg [ ]) {
+-Liste d’instruction 
+-L d'I;
+-L d'I;
+}
+
+### Les paramètres
+
+Ceux sont les données dont une fonction a besoin pour fonctionner, elles permettent de gagner beaucoup de temps. En effet, plusieurs fonctions ayant des données différentes peuvent être amenées à effectuer le même ordre. Afin d’éviter des lignes de codes interminables on utilisera alors les paramètres.
+Par exemple, un cabinet d’architecte souhaite établir des formules à chacun de leurs projets pour connaitre les dimenssions de leur biens. 
+
+Au lieux d'écrire :
+
+Public static void dimension  () {
+Int dimension : 6*(7+8) ;
+Return ;
+}
+
+il sera préférable d'écrire : 
+
+Public static void dimension  () {
+Int dimension : height*(depth + width);
+Return ;
+}
+
+Les arguments Height, Depth et Width viendront ici remplacer les données. Tout comme pour les loops,Ils existent de nombreux arguments 
 
     
