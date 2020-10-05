@@ -173,7 +173,43 @@ voici la liste par ordre alphabétique :
 
 ### Les Opérateurs
 
+Il existe différents types d'opérateurs en Java permettant de travailler les variables.
 
+Les plus courants et les plus basiques sont les **opérateurs de calcul**, qui s'appliquent aux types de données **int** , **double** et **float**.
+
+* + pour les additions
+* - pour les soustractions
+* * pour les multiplications
+* / pour les divisions
+* % pour le modulo (donne le restant après avoir dividé le dividende par le diviseur)
+
+exemple : 
+**int** a = 40;
+**int** b = 20;
+
+result = a **+** b; //60
+result = a **-** b; //20
+result = a * b; //800
+result = a **/** b //2
+result = a **%** b //0
+
+-----
+Il y a aussi les **opérateurs de comparaison**, utilisés pour comparer 2 valeurs.
+
+* > plus grand que
+* < plus petit que
+* >= plus grand ou égal à
+* <= plus petit ou égal à
+* == égal à
+* != différent de
+
+exemple :
+**int** a = 3;
+**int** b = 5;
+
+**boolean** result = a **>** b; // le resultat sera False
+
+------
 
 
 
